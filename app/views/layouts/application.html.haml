@@ -6,12 +6,9 @@
     = csrf_meta_tags
     = csp_meta_tag
 
-
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "content-type"}
-
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
+
   %body
     = yield
-
-    %script{:charset => "utf-8", :src => "//d3js.org/d3.v3.min.js"}
