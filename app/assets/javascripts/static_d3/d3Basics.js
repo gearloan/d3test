@@ -1,7 +1,9 @@
 window.onload = function () {
+
+  ////////////////////////// Tutorial 1 //////////////////////////
   var vis = d3.select("#graph")
               .append("svg")
-  .attr("width", 200).attr("height", 200);
+  .attr("width", 200).attr("height", 80);
 
   var nodes = [
       {x: 10, y: 50},
@@ -18,5 +20,25 @@ window.onload = function () {
      .attr("r", "10px")
      .attr("fill", "black")
 
-  
+  var links = [
+    {source: nodes[0], target: nodes[1]},
+    {source: nodes[2], target: nodes[1]}
+  ]
+
+  vis.selectAll(".line")
+     .data(links)
+     .enter()
+     .append("line")
+     .attr("x1", function(d) { return d.source.x })
+     .attr("y1", function(d) { return d.source.y })
+     .attr("x2", function(d) { return d.target.x })
+     .attr("y2", function(d) { return d.target.y })
+     .style("stroke", "rgb(6,120,155)");
+
+  ////////////////////////// Tutorial 2 //////////////////////////
+
+  var dataX = [4, 8, 15, 16, 23, 42];
+
+
+
 }
