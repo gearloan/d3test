@@ -39,6 +39,12 @@ window.onload = function () {
 
   var dataX = [4, 8, 15, 16, 23, 42];
 
+  d3.select(".basic-bar-chart")
+    .selectAll("div")
+      .data(dataX)
+    .enter().append("div")
+      .style("width", function(d) { return d * 10 + "px"; })
+      .text(function(d) { return d; });
 
 
 }
