@@ -1,5 +1,5 @@
 function d3Basics () {
-  var vis = d3.select("#graph")
+  var vis = d3.select("#grapho")
               .append("svg")
   .attr("width", 200).attr("height", 80);
 
