@@ -784,7 +784,7 @@ function z() {
                     return l(X, "#666", N, "#000")
                 } else {
                     if (X.type === "perspective") {
-                        return "#fff"
+                        return "purple"
                     }
                 }
             }

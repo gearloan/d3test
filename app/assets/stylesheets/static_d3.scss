@@ -243,6 +243,12 @@ body#static_d3_conceptMap {
   .conceptmap .all-ditems {
     fill: #aaa;
   }
+  .ditem:hover {
+    text {
+      fill:#133f4f!important;
+      font-weight: bold;
+    }
+  }
   .conceptmap .detail a text:hover, .conceptmap text.all-ditems:hover {
     text-decoration: underline;
   }
