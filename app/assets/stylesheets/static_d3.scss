@@ -43,8 +43,7 @@ svg.barWrap {
 }
 .bar {  fill: #80cbc4;}
 text {
-  font-size: 12px;
-  //fill: #fff;
+  font-size: 11px;
 }
 path {  stroke: gray;}
 line {  stroke: gray;}
@@ -97,7 +96,7 @@ body.static_d3_sankey {
   }
 }
 body#static_d3_conceptMap {
-  background: #333;
+  background: #133f4f;
   /* hide comments */
   #hidden-comments {
     display: none;
@@ -105,7 +104,9 @@ body#static_d3_conceptMap {
   #show-comments {
     margin: 20px 0;
   }
-
+  #graph {
+    text-align: center;
+  }
   /* ditem carousel */
   #ditem-container {
     position: relative;

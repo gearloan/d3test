@@ -1,8 +1,8 @@
 var ConceptMap = function(chartElementId, infoElementId, dataJson){
 
 
-var a = 800,
-    c = 800,
+var a = 1000,
+    c = 1000,
     h = c,
     U = 200,
     K = 22,
@@ -14,7 +14,7 @@ var a = 800,
     t = 10,
     w = 1000,
     F = "elastic",
-    N = "#0da4d3";
+    N = "#b5e1ef";
 var T,
     q,
     x,
@@ -749,7 +749,7 @@ function z() {
     f
         .selectAll("rect")
         .attr("fill", function (X) {
-            return l(X, "#000", N, "#000")
+            return l(X, "#f30", N, "#000")
         });
     B
         .selectAll("path")
