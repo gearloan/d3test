@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/pie-chart' => 'static_d3#pieChart', as: 'pieChart'
   get '/bar-chart' => 'static_d3#barChart', as: 'barChart'
   get '/basics' => 'static_d3#basicTutorials', as: 'basicTutorials'
+  get '/sankey' => 'static_d3#sankey', as: 'sankey'
 
 
 

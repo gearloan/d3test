@@ -5,6 +5,8 @@ class StaticD3Controller < ApplicationController
   end
   def barChart
   end
-  def basicTutorials 
+  def basicTutorials
+  end
+  def sankey 
   end
 end
