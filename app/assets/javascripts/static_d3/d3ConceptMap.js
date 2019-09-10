@@ -290,7 +290,6 @@ function M() {
     ]));
     C([]);
     m(P);
-    Q.html('<a href="/the-concept-map/">What\'s this?</a>');
     n();
     z()
 }
