@@ -621,7 +621,7 @@ function C(Z) {
         .append("text")
         .attr("text-anchor", "start")
         .attr("x", a / -2 + t)
-        .attr("y", c / 2 - t)
+        .attr("y", K / 2 - t)
         .text("all data")
         .attr("class", "all-ditems")
         .on("click", O);
