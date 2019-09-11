@@ -29,7 +29,13 @@ circle {
   text-anchor: middle;
 }
 
-
+body#static_d3_index {
+  display: flex;
+  justify-content: center;
+  section {
+    padding: 30px;
+  }
+}
 ////////////////////////// Bar Chart //////////////////////////
 div#layout {  text-align: center; }
 div#container {
@@ -291,5 +297,12 @@ body#static_d3_usMap {
   	position:absolute;
   	left:800px;
   	top:350px;
+  }
+}
+
+////////////////////////// grade 7 chart //////////////////////////
+body#static_d3_grade7Graph {
+  line {
+    stroke: black;
   }
 }

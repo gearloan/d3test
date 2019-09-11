@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/sankey' => 'static_d3#sankey', as: 'sankey'
   get '/concept-map' => 'static_d3#conceptMap', as: 'conceptMap'
   get '/us-map' => 'static_d3#usMap', as: 'usMap'
+  get '/grade-7-graph' => 'static_d3#grade7Graph', as: 'grade7Graph'
 
 
 

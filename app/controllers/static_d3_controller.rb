@@ -11,6 +11,8 @@ class StaticD3Controller < ApplicationController
   end
   def conceptMap
   end
-  def usMap 
+  def usMap
+  end
+  def grade7Graph 
   end
 end
