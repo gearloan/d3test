@@ -97,6 +97,11 @@ body.static_d3_sankey {
 }
 body#static_d3_conceptMap {
   background: #133f4f;
+  color:#fff;
+  a {
+    font-style: italic;
+    color:#fff;
+  }
   /* hide comments */
   #hidden-comments {
     display: none;
@@ -251,5 +256,39 @@ body#static_d3_conceptMap {
   }
   .conceptmap .detail a text:hover, .conceptmap text.all-ditems:hover {
     text-decoration: underline;
+  }
+}
+
+////////////////////////// US map usmap //////////////////////////
+body#static_d3_usMap {
+  /* On mouse hover, lighten state color */
+  path:hover {
+  	fill-opacity: .7;
+  }
+
+  /* Style for Custom Tooltip */
+  div.tooltip {
+   	position: absolute;
+  	text-align: center;
+  	width: 60px;
+  	height: 28px;
+  	padding: 2px;
+  	font: 12px sans-serif;
+  	background: white;
+  	border: 0px;
+  	border-radius: 8px;
+  	pointer-events: none;
+  }
+
+  /* Legend Font Style */
+  body {
+  	font: 11px sans-serif;
+  }
+
+  /* Legend Position Style */
+  .legend {
+  	position:absolute;
+  	left:800px;
+  	top:350px;
   }
 }

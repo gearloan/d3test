@@ -9,6 +9,8 @@ class StaticD3Controller < ApplicationController
   end
   def sankey
   end
-  def conceptMap 
+  def conceptMap
+  end
+  def usMap 
   end
 end
